@@ -1,0 +1,245 @@
+body {
+    height: 100%;
+}
+
+.container {
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-row {
+    padding: 32px;
+    text-transform: capitalize;
+}
+
+.form-row i {
+    float: left;
+    padding: 4px;
+    margin-right: 16px;
+}
+
+.form-row p {
+    margin-top: 8px;
+}
+
+#main-container {
+    height: 100%;
+    width: 100%;
+}
+
+.control-group {
+    padding: 16px;
+}
+
+.full {
+    height: 100%;
+    width: 100%;
+}
+
+/** Tabs **/
+#main-tabs {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    height: 88px;
+    background-color: #5bc0de;
+}
+
+#main-tabs div a {
+    font-size: 24px;
+    color: #ffffff;
+    outline:0;
+}
+
+#main-tabs div i {
+    color: #ffffff;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+#main-tabs #tabs-divider {
+    float: left;
+    width: 1px;
+    background-color: #FFF;
+    height: 100%;
+    padding-top: 0px;
+}
+
+#main-tabs div {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#main-tabs #tab-profile {
+    width: 49%;
+}
+
+/** Profle Tab **/
+
+#icon {
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: inset rgba(255, 255, 255, 0.6) 0 2px 2px, inset rgba(0, 0, 0, 0.3) 0 -2px 6px;
+}
+
+#display-name-container {
+    width: 180px;
+}
+
+#name {
+    margin-left: 32px;
+    height: 64px;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.address {
+    max-width: 440px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.private-key {
+    max-width: 655px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.col-3 {
+    float: left;
+    width: 30%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+@media (max-width: 991px) {
+    .col-3 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 991px) {
+    .col-3 {
+        width: 90%;
+    }
+}
+
+#tabs h3 {
+    padding: 5px 15px;
+}
+
+#copy-icon {
+    height: 16px;
+    width: 16px;
+}
+
+#ethereum-account {
+    width: 48px;
+}
+
+#profile-container {
+    margin-top: 64px;
+    height: 100%;
+}
+
+#accounts-container {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+#ethereum-account-container {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+#ethereum-account-label-container {
+    margin-bottom: 24px;
+}
+
+h3#ethereum-account-label {
+    margin: 0;
+    height: 80px;
+    padding-top: 24px;
+    padding-left: 16px;
+}
+
+/** Scanner Tab **/
+
+#scannerContainer {
+    height: 100vh;
+}
+
+video#preview {
+    background-color: #000000;
+    min-width: 100%;
+    min-height:100%;
+}
+
+img#qr_cursor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -145px;
+    margin-left: -145px;
+}
+
+/* authorize container */
+#authorizeContainer {
+    z-index: 9999;
+}
+
+.permissions td {
+    padding-right: 16px;
+    padding-top: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* alertify overide */
+
+.alertify .ajs-dialog {
+    max-width: 600px; !important;
+}
+
+.ajs-ok {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: white;
+    border-radius: 4px;
+}
+
+.ajs-cancel {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    color: white;
+    border-radius: 4px;
+}
+
+/** Utility **/
+
+.left {
+    float: left;
+}
+
+/** Clearfix **/
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
